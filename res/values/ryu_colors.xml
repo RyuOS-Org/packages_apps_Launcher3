@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2024-2025 The Clover Project
+     Copyright (C) 2025 Ryu-UI Org
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,7 +14,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
 
-    <string name="pref_show_google_now_summary" translatable="false">@string/msg_minus_one_on_right</string>
+    <!-- Appseat -->
+    <color name="appseat_color">@*android:color/system_neutral2_50</color>
+
+    <color name="ryu_base_bg">@*android:color/system_accent1_600</color>
+
+    <color name="mid_clear_all_background_color">@*android:color/system_neutral2_50</color>
 </resources>

@@ -23,14 +23,14 @@
     xmlns:aapt="http://schemas.android.com/aapt">
 
     <androidx.preference.ListPreference
-        settings:layout="@layout/clover_settings_header"
+        settings:layout="@layout/ryu_settings_header"
         android:selectable="false"/>
 
     <Preference
         android:key="icons"
         android:title="@string/icons_category_title"
-        android:icon="@drawable/ic_clover_icons_bg"
-        android:layout="@layout/clover_dashboard_card">
+        android:icon="@drawable/ic_ryu_icons_bg"
+        android:layout="@layout/ryu_dashboard_card">
     <intent
             android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
             android:targetPackage="com.android.launcher3"
@@ -40,8 +40,8 @@
     <Preference
         android:key="home_screen"
         android:title="@string/home_category_title"
-        android:icon="@drawable/ic_clover_home_bg"
-        android:layout="@layout/clover_dashboard_card">
+        android:icon="@drawable/ic_ryu_home_bg"
+        android:layout="@layout/ryu_dashboard_card">
     <intent
             android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
             android:targetPackage="com.android.launcher3"
@@ -51,8 +51,8 @@
     <Preference
         android:key="app_drawer"
         android:title="@string/app_drawer_category_title"
-        android:icon="@drawable/ic_clover_apps_bg"
-        android:layout="@layout/clover_dashboard_card">
+        android:icon="@drawable/ic_ryu_apps_bg"
+        android:layout="@layout/ryu_dashboard_card">
     <intent
             android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
             android:targetPackage="com.android.launcher3"
@@ -62,8 +62,8 @@
     <Preference
         android:key="recents"
         android:title="@string/recents_category_title"
-        android:icon="@drawable/ic_clover_recent_bg"
-        android:layout="@layout/clover_dashboard_card">
+        android:icon="@drawable/ic_ryu_recent_bg"
+        android:layout="@layout/ryu_dashboard_card">
     <intent
             android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
             android:targetPackage="com.android.launcher3"
@@ -73,8 +73,8 @@
     <Preference
         android:key="miscellaneous"
         android:title="@string/misc_category_title"
-        android:icon="@drawable/ic_clover_more_bg"
-        android:layout="@layout/clover_dashboard_card">
+        android:icon="@drawable/ic_ryu_more_bg"
+        android:layout="@layout/ryu_dashboard_card">
     <intent
             android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
             android:targetPackage="com.android.launcher3"
