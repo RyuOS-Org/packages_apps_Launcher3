@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application name -->
-    <string name="lessaosp_app_name" translatable="false">LessAOSP Home</string>
+    <string name="ryuos_app_name" translatable="false">RyuOS Home</string>
 
     <!-- Folder titles -->
     <string name="google_folder_title" translatable="false">Google</string>
